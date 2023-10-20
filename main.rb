@@ -1,8 +1,7 @@
-class Game
-  name = gets.chomp
-  puts "hello, my name is #{name}"
-end
+require './game'
+require './player'
+require './question'
 
 myGame = Game.new
 
-myGame
+myGame.start

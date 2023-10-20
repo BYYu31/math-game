@@ -1,6 +1,3 @@
-require './player'
-require './question'
-
 class Game
   attr_accessor :current_player, :player1, :player2
   def initialize
@@ -67,6 +64,3 @@ class Game
     new_round
   end
 end
-
-new_game = Game.new
-new_game.start
