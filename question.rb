@@ -1,5 +1,6 @@
 class Question
   attr_accessor :question, :answer 
+  def initialize
     number1 = rand(1..20)
     number2 = rand(1..20)
     @question = "what is #{number1} + #{number2}?"
@@ -7,7 +8,5 @@ class Question
   end
 end
 
-question = Question.new
-
-puts question.question
-puts question.answer
+# new_question = Question.new
+# puts new_question.question
