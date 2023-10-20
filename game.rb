@@ -57,9 +57,9 @@ class Game
 
   def change_current_player
     if current_player == 1
-      current_player = 2
+      @current_player = 2
     else
-      current_player = 1
+      @current_player = 1
     end
     new_round
   end
